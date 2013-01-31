@@ -48,7 +48,17 @@ I'm taking this class because I want to become a decent programmer, and I know t
 	$bookcost = ($units / 3) * 60.00;
 ?>
 
-<h3>Amber's SRJC Expenses Over the Last 3.5 years calculated with PHP! </h3>
+<h3>Amber's Birthday Calculated With PHP</h3>
+ <?php
+ $age = 20 + 1
+ ?>
+ 
+ <p>This is how old I am: <span style="color:#970000;">
+ <?php
+ echo $age;
+ ?></span>
+
+<h3>Amber's SRJC Expenses Calculated With PHP</h3>
 
 <p>
 This is how much I've spent on books at SRJC: <span style="color:#970000;">$<?php  echo $bookcost; ?></span><br />
