@@ -41,7 +41,7 @@ I'm taking this class because I want to become a decent programmer, and I know t
 </p> 
 
  
-<p class="color">So....Here it goes...my first attempt at learning how to use PHP!</p>
+<p>So....Here it goes...my first attempt at learning how to use PHP!</p>
 
 <?php
 	$units = 90;
