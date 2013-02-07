@@ -30,7 +30,7 @@ ul li{
 ul li a{
 	underline: none;
 	text-decoration: none;
-	color: #970000;
+	color: #B30000;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 1em;	
 }
@@ -45,13 +45,18 @@ ul li a:hover{
 }
 
 a:link{
-	font-size: .9em;
+	font-size: 0.9em;
 	text-decoration: none;
-	color: #970000;	
+	color: #B30000;
 }
 
 a:hover{
 	color: #FB0000;	
+}
+
+a:visted{
+	color: #FFF;
+	
 }
 
 section{
@@ -84,6 +89,13 @@ font-size: 1em;
 font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;	
 line-height: 1.5em;
 		
+}
+
+span  {
+	 color:#fff;
+font-size: 1em;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;	
+line-height: 1.5em;
 }
 
 footer{

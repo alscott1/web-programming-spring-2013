@@ -16,10 +16,10 @@
 
 <nav>
 <ul>
-<li><a id="current" href="index.php">Home (Lesson 1)</a></li>
-<li><a href="#">Lesson 2</a></li>
-<li><a href="#">Lesson 3</a></li>
-<li><a href="#">Lesson 4</a></li>
+<li><a id="current" href="index.php">Home (Homework 1)</a></li>
+<li><a href="hw2.php">Homework 2</a></li>
+<li><a href="#">Homework 3</a></li>
+<li><a href="#">Homework 4</a></li>
 </ul>
 </nav>
 
@@ -43,25 +43,27 @@ I'm taking this class because I want to become a decent programmer, and I know t
  
 <p>So....Here it goes...my first attempt at learning how to use PHP!</p>
 
+<h3>Amber's Birthday Calculated With PHP</h3>
+ <?php
+ // this is my age calculated with PHP
+ function age($birthdate) {
+	 return (strtotime('now') -strtotime($birthdate))/(60*60*24*365);
+ }
+ $age = age('1991-4-07');
+ ?>
+ 
+ <p>This is how old I am: <span style="color:#E0050B;"> <?php
+ echo $age;
+ ?></span>
+ 
+<h3>Amber's SRJC Expenses Calculated With PHP</h3>
 <?php
 	$units = 90;
 	$bookcost = ($units / 3) * 60.00;
 ?>
 
-<h3>Amber's Birthday Calculated With PHP</h3>
- <?php
- $age = 20 + 1
- ?>
- 
- <p>This is how old I am: <span style="color:#970000;">
- <?php
- echo $age;
- ?></span>
-
-<h3>Amber's SRJC Expenses Calculated With PHP</h3>
-
 <p>
-This is how much I've spent on books at SRJC: <span style="color:#970000;">$<?php  echo $bookcost; ?></span><br />
+This is how much I've spent on books at SRJC: <span style="color:#E0050B;">$<?php  echo $bookcost; ?></span><br />
 Thank Goodness there weren't book charges for this class!
 </p>
 
@@ -77,7 +79,7 @@ $gasExpense = ($years * $weeksPerYear * $tripsPerWeek * $milesPerTrip * $costPer
 ?>
 
 <p>
-This is how much I've spent on gas going to school: <span style="color:#970000;">$<?php  echo $gasExpense; ?></span> 
+This is how much I've spent on gas going to school: <span style="color:#E0050B;">$<?php  echo $gasExpense; ?></span> 
 </p>
 </section>
 
@@ -86,7 +88,7 @@ This is how much I've spent on gas going to school: <span style="color:#970000;"
  Amber Scott -Web Programming Spring 2013
  </p>
  
-<a id="current" href="index.php">Home (Lesson 1)</a> | <a href="#">Lesson 2</a> | <a href="#">Lesson 3</a> | <a href="#">Lesson 4</a>
+<a id="current" href="index.php">Home (Homework 1)</a> | <a href="hw2.php">Homework 2</a> | <a href="#">Homework 3</a> | <a href="#">Homework 4</a>
 
 </footer>
 
