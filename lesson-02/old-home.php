@@ -17,7 +17,7 @@
 <nav>
 <ul>
 <li><a href="index.html">Home (Week 3) (CSS3 & Grid-based Responsive Layout)</a></li>
-   <li><a href="old-home.php">PHP Calculations (Week 1)</a></li>
+   <li><a id="current" href="old-home.php">PHP Calculations (Week 1)</a></li>
   <li><a href="hw2.php">PHP Form Input (Week 2)</a></li> 
 </ul>
 </nav>

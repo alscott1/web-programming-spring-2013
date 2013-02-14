@@ -16,10 +16,9 @@
 
 <nav>
 <ul>
-<li><a href="index.php">Home (Homework 1)</a></li>
-<li><a id="current" href="hw2.php">Homework 2</a></li>
-<li><a href="#">Homework 3</a></li>
-<li><a href="#">Homework 4</a></li>
+<li><a href="index.html">Home (Homework 3 Responsive Layout)</a></li>
+<li><a href="old-home.php">Homework 1 (PHP Calculations)</a></li>
+<li><a id="current" href="hw2.php">Homework 2 (PHP Form)</a></li>
 </ul>
 </nav>
 
@@ -160,7 +159,7 @@
  Amber Scott -Web Programming Spring 2013
  </p>
  
-<a href="index.php">Home (Homework 1)</a> | <a id="current" href="hw2.php">Homework 2</a> | <a href="#">Homework 3</a> | <a href="#">Homework 4</a>
+<a href="index.html">Home (Week 3) (CSS3 & Grid-based Responsive Layout)</a> | <a href="old-home.php">PHP Calculations (Week 1)</a>| <a id="current" href="hw2.php">PHP Form Input (Week 2)</a>
 
 </footer>
 
